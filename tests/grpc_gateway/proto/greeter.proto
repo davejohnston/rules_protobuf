@@ -1,14 +1,8 @@
 syntax = "proto3";
 
 import "google/api/annotations.proto";
+import "proto/message.proto";
 
-message HelloRequest {
-  string name = 1;
-}
-
-message HelloReply {
-  string message = 1;
-}
 
 // The greeting service definition.  Note that the
 // protoc-gen-grpc-gateway plugin will skip and service/rpc
