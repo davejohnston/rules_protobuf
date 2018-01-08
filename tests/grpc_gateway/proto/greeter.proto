@@ -3,6 +3,7 @@ syntax = "proto3";
 import "google/api/annotations.proto";
 import "proto/message.proto";
 
+package helloworld;
 
 // The greeting service definition.  Note that the
 // protoc-gen-grpc-gateway plugin will skip and service/rpc
